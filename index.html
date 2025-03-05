@@ -19,6 +19,21 @@
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
+<div id="contact"></div>
+
+<script>
+    // Create a button element
+    const button = document.createElement('Contact');
+    button.textContent = 'email me';
+
+    // Add a click event to redirect to Gmail
+    button.addEventListener('click', function() {
+        window.location.href = 'https://mail.google.com';
+    });
+
+    // Append the button to the container div
+    document.getElementById('Contact').appendChild(button);
+</script>
 
     <section id="about">
         <h2>About Me</h2>
@@ -33,8 +48,6 @@
         <h2>Hobbies</h2>
         <P>I love spending time otdoors for billiards gaming, watching football matches and coding practice</P>
     </section>
-
-
 
     <section id="contact">
         <h2>Contact</h2>
