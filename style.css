@@ -34,3 +34,7 @@ nav ul {
     background:rgb(12, 132, 132);
     padding: 15px 0;
 }
+nav ul li:hover {
+    background-color: yellow;
+    font-size: 18px;
+  }
