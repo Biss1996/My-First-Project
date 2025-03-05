@@ -25,3 +25,12 @@ body{
     color: #333;
     background-color: aqua;
 }
+/* / Navigation bar/ */
+nav ul {
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background:rgb(12, 132, 132);
+    padding: 15px 0;
+}
